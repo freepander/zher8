@@ -1,0 +1,87 @@
+/**
+ *  common-wrap
+ */
+.wrap{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1010px;
+	background: #FBFBFB;
+	
+}
+.menu{
+	margin-top: 18px;
+
+}
+
+.card-box{
+	position: relative;
+	min-height: 200px;
+	padding-top: 10px;
+}
+.card-list{
+	position: relative;
+	float: left;
+	width:240px;
+	min-height: 100px;
+	margin-right: 16px;
+}
+#list4{
+	margin-right: 0px;
+}
+.card-item{
+	letter-spacing: normal;
+	display: block;
+	vertical-align: top;
+	margin-bottom: 30px;
+}
+.card-main{
+	width: 100%;
+	font-size: 12px;
+	background: #fff;
+	border-radius: 4px;
+	border: 1px solid #dfdfdf;
+	overflow: hidden;
+	box-shadow: 0 1px 2px 0 rgba(158,158,158,0.2);
+}
+.card-hd{
+	position: relative;
+	overflow: hidden;
+}
+.card-hd>a{
+	display: block;
+	color: #985d3e;
+}
+.card-hd>a>img{
+	width: 100%;
+	vertical-align: top;
+	border-width: 0;
+}
+.card-bd{
+	padding-top: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+
+}
+.card-bd>a{
+	display: block;
+	line-height: 1.5;
+	margin-bottom: 10px;
+	font-size: 13px;
+	color: #985d3e;
+	font-weight: bold;
+}
+.card-bd .message{
+	display: block;
+	padding-bottom: 8px;
+}
+.card-bd .logo{
+	height: 24px;
+	width: 24px;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 12px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
