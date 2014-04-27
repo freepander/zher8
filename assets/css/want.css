@@ -1,0 +1,146 @@
+body{
+	background: #fbfbfb;
+}
+.wrap{
+	width: 1010px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.left{
+	float: left;
+}
+.left .nav{
+	width: 148px;
+	list-style: none;
+	line-height: 60px;
+	border: 1px solid #bfbfbf;
+}
+.left .nav li{
+	border-bottom: 1px dashed #bfbfbf;
+}
+.left .nav li.last{
+	border-bottom: 0;
+}
+.left .nav a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	color: #999999;
+}
+.left .nav a:hover{
+	text-decoration: none;
+}
+.left .nav a:hover{
+	color: #317392;
+}
+.left .nav a:hover>span{
+	visibility: visible;
+}
+.left .nav a>span{
+	position: absolute;
+	right: 8px;
+	visibility: hidden;
+}
+.left .nav a.active{
+	color: #317392;
+}
+.left .nav a.active>span{
+	visibility: visible;
+}
+.main{
+	margin-left: 160px;
+}
+.main .subnav{
+
+}
+.main .subnav>a{
+	display: inline-block;
+	height: 30px;
+	width: 100px;
+	border: 1px solid #b9b9b9;
+	font-size: 14px;
+	text-align: center;
+	color: #77777c;
+	background: #eeeeee;
+	outline: 0;
+	cursor: pointer;
+	line-height: 30px;
+	border-radius: 4px;
+}
+.main .subnav>a.active{
+	background: #317392;
+	color: #ffffff;
+}
+.main .subnav>a:hover{
+	background: #317392;
+	color: #ffffff;
+	text-decoration: none;
+}
+.main .list{
+	margin-top: 10px;
+}
+.main .list .item{
+	border: 1px solid #b5b5b5;
+	height: 180px;
+	margin-top: 10px;
+	padding: 14px;
+	position: relative;
+}
+.item .pic{
+	display: block;
+	float: left;
+	width: 152px;
+	height: 178px;
+}
+.item .content{
+	margin-left: 167px;
+	padding-top: 20px;
+	color: #77777c;
+}
+.item .content>span{
+	position: relative;
+	float: right;
+	font-size: 20px;
+	top: -4px;
+}
+.item .content>span small{
+	font-size: 14px;
+}
+.item .content>h3{
+	color: #77777c;
+}
+.item .content>p{
+	margin-top: 20px;
+	line-height: 18px;
+}
+.item .content>p:before{
+	content: "“";
+	position: relative;
+	top: -3px;
+	font-size: 20px;
+}
+.item .content>p:after{
+	content: "”";
+	position: relative;
+	font-size: 20px;
+	top: 4px;
+}
+.item .content .bottom{
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+.item .content .bottom a{
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #a25e3f;
+}
+.item .content .bottom a:hover{
+	text-decoration: none;
+}
+.item .content .bottom .review{
+	color: #77a5b9;
+}

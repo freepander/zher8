@@ -93,6 +93,7 @@
 }
 .nav-item:hover{
 	text-decoration: none;
+	border-bottom: 3px solid #de533c;
 }
 .nav-item.active{
 	border-bottom: 3px solid #de533c;
@@ -111,7 +112,7 @@
 	background: #fff;
 }
 .nav-search input{
-	widows: 160px;
+	width: 200px;
 	height: 35px;
 	border: 0;
 	outline: 0;
@@ -129,6 +130,7 @@
 	background: 0;
 	cursor: pointer;
 	border-left: 1px solid #eee;
+	outline: 0;
 }
 .nav-search button:before{
 	content: '搜索';
@@ -155,38 +157,6 @@
 .footer{
 	min-height: 100px;
 	clear: both;
-}
-
-/**
- * rank
- */
-.rank-tab{
-	font-size: 14px;
-	list-style: none;
-}
-.rank-tab li{
-	display: inline-block;
-	vertical-align: top;
-	border-radius: 2px;
-	background: #eee;
-	margin-right: 5px;
-	color: #777;
-}
-.rank-tab li a{
-	padding: 5px 15px;
-	height: 26px;
-	display: block;
-	border-radius: 2px;
-	color: #777;
-	line-height: 26px;
-	font-size: 18px;
-}
-.rank-tab li a:hover{
-	text-decoration: none;
-}
-.rank-tab li a.active{
-	background: #357390;
-	color: #fff;
 }
 
 /**
@@ -222,16 +192,20 @@
 .btn-submit:hover{
 	text-decoration: none;
 }
-
+.disabled{
+	color: #999;
+	background: #f0f0f0;
+	border: 1px solid #b9b9b9;
+}
 /**
  * form
  */
-.item{
+form .item{
 	clear: both;
 	margin: 15px 0;
 	zoom: 1;
 }
-.item label{
+form .item label{
 	display: inline-block;
 	float: left;
 	margin-right: 15px;
@@ -241,7 +215,7 @@
 	line-height: 30px;
 	vertical-align: baseline;
 }
-.item .input-base{
+form .item .input-base{
 	width: 200px;
 	padding: 5px;
 	height: 18px;
@@ -250,7 +224,7 @@
 	border-radius: 3px;
 	border: 1px solid #c9c9c9;
 }
-.item .remember{
+form .item .remember{
 	cursor: pointer;
 	font-size: 12px;
 	display: inline;

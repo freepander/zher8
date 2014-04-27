@@ -1,5 +1,8 @@
+body{
+	background: #fbfbfb;
+}
 /**
- *  common-wrap
+ *  wrap
  */
 .wrap{
 	position: relative;
@@ -7,17 +10,16 @@
 	margin-right: auto;
 	width: 1010px;
 	background: #FBFBFB;
-	
+	overflow: hidden;
 }
 .menu{
 	margin-top: 18px;
 
 }
-
 .card-box{
 	position: relative;
 	min-height: 200px;
-	padding-top: 10px;
+	margin-top: 10px;
 }
 .card-list{
 	position: relative;
@@ -84,4 +86,37 @@
 	border-radius: 12px;
 	vertical-align: middle;
 	margin-right: 5px;
+}
+/**
+ * rank
+ */
+.rank-tab{
+	font-size: 14px;
+	list-style: none;
+}
+.rank-tab li{
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 2px;
+	background: #eee;
+	margin-right: 5px;
+	color: #777;
+}
+.rank-tab li a{
+	padding: 5px 15px;
+	height: 24px;
+	display: block;
+	border-radius: 2px;
+	color: #777;
+	line-height: 26px;
+	font-size: 16px;
+}
+.rank-tab li a:hover{
+	text-decoration: none;
+	background: #357390;
+	color: #fff;
+}
+.rank-tab li a.active{
+	background: #357390;
+	color: #fff;
 }
