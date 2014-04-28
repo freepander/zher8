@@ -1,0 +1,263 @@
+.wrap{
+	margin-top: 40px;
+	overflow: hidden;
+	width: 1010px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wrap .main{
+	float: left;
+	width: 650px;
+}
+/**
+ * 商品信息
+ */
+.main .commodity{
+	width: 630px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 30px;
+	min-height: 199px;
+	background: #fff;
+	border-radius: 4px;
+	border: 1px solid #dfdfdf;
+	box-shadow: 0 1px 2px 0 rgba(158,158,158,0.2);
+}
+.commodity .pic{
+	width: 300px;
+	float: left;
+}
+.commodity .pic img{
+	width: 300px;
+}
+.commodity .content{
+	margin-left: 310px;
+	margin-bottom: 10px;
+}
+.commodity .author{
+	color: #999999;
+}
+.commodity .name{
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 20px;
+}
+.commodity .name:before{
+	content: "“";
+	position: relative;
+	top: -4px;
+}
+.commodity .name:after{
+	content: " ”";
+	position: relative;
+	top: -4px;
+	margin-left: 4px;
+}
+.commodity .price{
+	margin-top: 30px;
+	margin-right: 30px;
+	color: #999999;
+}
+.commodity-footer{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: right;
+	color: #999999;
+	background: #fbfbfb;
+}
+.commodity-footer span{
+	margin-left: 10px;
+}
+/**
+ * 出价列表
+ */
+.main .price-list{
+	margin-top: 30px;
+}
+.price-list .sort{
+	padding-top: 20px;
+	float: right;
+}
+.price-list .sort li{
+	display: inline;
+}
+.price-list .sort a{ 
+	color: #666;
+	margin-left: 10px;
+}
+.price-list .sort a:hover{
+	text-decoration: none;
+	color: #999;
+}
+.price-list .title{
+	color: #666;
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+/**
+ * 时间轴
+ */
+.timeline{
+	position: relative;
+}
+.timeline:before{
+	content: ' ';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	background: #afdcf8;
+	left: 140px;
+}
+.timeline-item{
+	position: relative;
+	margin-bottom: 10px;
+}
+.timeline-item .item-time{
+	position: absolute;
+	display: block;
+	width: 100px;
+	top: 0;
+	left: 10px;
+}
+.timeline-item .item-time .date{
+	font-size: 12px;
+	color: #bdd0bd;
+	display: block;
+	text-align: right;
+	top: 6px;
+}
+.timeline-item .item-time .time{
+	font-size: 24px;
+	display: block;
+	color: #46a4da;
+}
+.timeline-item .item-img{
+	width: 40px;
+	height: 40px;
+	speak: none;
+	line-height: 40px;
+	position: absolute;
+	color: #fff;
+	background: #46a4da;
+	border-radius: 50%;
+	box-shadow: 0 0 0 8px #afdcf8;
+	text-align: center;
+	top: 7px;
+	left: 124px;
+}
+.timeline-item .item-label{
+	position: relative;
+	margin-left: 190px;
+	background: #6cbfee;
+	margin-bottom: 15px;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+}
+.timeline-item .item-label:before{
+	content: " ";
+	position: absolute;
+	border: 10px solid transparent;
+	height: 0;
+	width: 0;
+	top: 20px;
+	left: -20px;
+	border-right-color: #6cbfee;
+}
+.timeline-item .label-header{
+	
+}
+.timeline-item .label-header .header{
+	
+}
+.timeline-item .label-header .name{
+	padding-left: 10px;
+}
+.timeline-item .label-header a{
+	color: #fff;
+}
+.timeline-item .label-header .price{
+	float: right;
+	font-size: 20px;
+}
+.timeline-item .label-body{
+	margin-left:  64px;
+}
+.timeline-item .label-header img{
+	display: inline;
+	vertical-align:middle;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+.timeline-item .label-footer{
+	text-align: right;
+}
+.timeline-item .label-footer a{
+	color: #fff;
+}
+/**
+ * 我要出价
+ */
+.review{
+	margin-top: 30px;
+}
+.review .hd{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.review .bd{
+	position: relative;
+}
+.review .bd .bd-form{
+
+}
+.review .bd .text{
+                 
+}
+.review .bd .text{
+	width: 50%;
+	height: 32px;
+	display: block;
+	border-radius: 4px;
+	outline: 0;
+	text-indent: 10px;
+	vertical-align: middle;
+	border: 1px solid #ccc;
+	color: #ccc;
+}
+.review .bd .textarea{
+	margin-top: 10px;
+	height: 100px;
+	width: 628px;
+	display: block;
+	border-radius: 4px;
+	outline: 0;
+	padding: 10px;
+	vertical-align: middle;
+	border: 1px solid #ccc;
+	color: #ccc;
+}
+.wrap .right{
+	margin-left: 700px;
+	height: 100px;
+}
+.right .aside{
+
+}
+.right .aside .hd{
+
+}
+.right .aside .hd h2{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.right .aside .bd a{
+	font-size: 14px;
+	color: #000;
+}
